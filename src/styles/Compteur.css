@@ -1,0 +1,36 @@
+/**
+.Compteur est le className du div(contenaire) principal de notre 
+composant Compteur
+*/
+.Compteur{
+    width: 300px;
+    height: 300px;
+    border-radius:20px ;
+    border: 0.5px solid rgb(213, 213, 213);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    padding: 30px;
+}
+h1{
+    font-size : 100px
+}
+
+.decrementer{
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    margin-right: 20px;
+}
+
+.incrementer{
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: rgb(0, 174, 255);
+    color: white
+}
